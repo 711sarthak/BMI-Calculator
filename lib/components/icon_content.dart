@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:yo/constants.dart';
+import 'package:BMI/constants.dart';
 
 class IconContent extends StatelessWidget {
   IconContent({this.icon,this.label});
