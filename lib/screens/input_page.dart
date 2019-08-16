@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:yo/components/icon_content.dart';
-import 'package:yo/components/reusable_card.dart';
-import 'package:yo/constants.dart';
-import 'package:yo/components/Bottom_Button.dart';
-import 'package:yo/components/round_icon_button.dart';
-import 'package:yo/calculator_brain.dart';
+import 'package:BMI/components/icon_content.dart';
+import 'package:BMI/components/reusable_card.dart';
+import 'package:BMI/constants.dart';
+import 'package:BMI/components/Bottom_Button.dart';
+import 'package:BMI/components/round_icon_button.dart';
+import 'package:BMI/calculator_brain.dart';
 import 'result_score.dart';
 
 enum Gender{
@@ -117,7 +117,7 @@ class _InputPageState extends State<InputPage> {
               ),
             ),
           ),
-          /////////////////////////////////////////////////////
+          
           Expanded(child:
            Row(             
             children: <Widget>[              
@@ -166,7 +166,7 @@ class _InputPageState extends State<InputPage> {
                 ),
                ),
               ),
-              ///////////////////////////////////////////////
+              
               Expanded(child: 
                 ReusableCard(
                   colour: kActiveCardColour,
