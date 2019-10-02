@@ -1,2 +1,2 @@
 # BMI-Calculator
-This application will check your BMI(Body Mass Index) and will make a comment according to that.
+This application will help you to calculate your BMI (Body Mass Index).
